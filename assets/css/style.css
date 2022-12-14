@@ -2,17 +2,17 @@
 
 @font-face {
   font-family: txt;
-  src: url(/Users/sirius/Downloads/Arsha/assets/fonts/text.ttf);
+  src: url(/assets/fonts/text.ttf);
 }
 
 @font-face {
   font-family: mm;
-  src: url(/Users/sirius/Downloads/Arsha/assets/fonts/regular.ttf);
+  src: url(/assets/fonts/regular.ttf);
 }
 
 @font-face {
   font-family: phs;
-  src: url(/Users/sirius/Downloads/Arsha/assets/fonts/phs.ttf);
+  src: url(/assets/fonts/phs.ttf);
 }
 
 body {
@@ -1878,12 +1878,5 @@ section {
     padding-top: 4px;
   }
 
-  #ttk {
-    font-family: "Jost", sans-serif, mm;
-    line-height: 1.8em;
-    color: #333;
-    padding: 0;
-
-  }
 
 }
