@@ -1,22 +1,38 @@
-/**
-* Template Name: Arsha - v4.9.1
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
+@font-face {
+  font-family: txt;
+  src: url(/Users/sirius/Downloads/Arsha/assets/fonts/text.ttf);
+}
+
+@font-face {
+  font-family: mm;
+  src: url(/Users/sirius/Downloads/Arsha/assets/fonts/regular.ttf);
+}
+
+@font-face {
+  font-family: phs;
+  src: url(/Users/sirius/Downloads/Arsha/assets/fonts/phs.ttf);
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Jost", sans-serif;
   color: #444444;
+}
+
+.info {
+  background: rgba(0, 0, 0, 0.1);
+  opacity: 0.6;
+  color: rgb(255, 204, 0);
+  border-radius: 15px;
 }
 
 a {
   color: #47b2e4;
   text-decoration: none;
+  padding: 0%;
 }
+
 
 a:hover {
   color: #73c5eb;
@@ -29,12 +45,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Jost", sans-serif;
+  font-family: "Jost", sans-serif, txt;
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
+p {
+  font-family: "Jost", sans-serif, mm;
+  line-height: 1.8em;
+}
+
+
+
 #preloader {
   position: fixed;
   top: 0;
@@ -625,6 +645,7 @@ section {
 .about .content ul li {
   padding-left: 28px;
   position: relative;
+
 }
 
 .about .content ul li+li {
@@ -689,6 +710,7 @@ section {
 .why-us .content p {
   font-size: 15px;
   color: #848484;
+  line-height: 1.5em;
 }
 
 .why-us .img {
@@ -1257,12 +1279,14 @@ section {
   list-style: none;
   color: #999;
   text-align: left;
-  line-height: 20px;
+  line-height: 1.8em;
+  font-family: mm;
 }
 
 .pricing ul li {
   padding: 10px 0 10px 30px;
   position: relative;
+  
 }
 
 .pricing ul i {
@@ -1853,4 +1877,13 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+
+  #ttk {
+    font-family: "Jost", sans-serif, mm;
+    line-height: 1.8em;
+    color: #333;
+    padding: 0;
+
+  }
+
 }
