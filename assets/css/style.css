@@ -2,17 +2,17 @@
 
 @font-face {
   font-family: txt;
-  src: url(https://xpc54.github.io/xcomic_host98/assets/fonts/text.ttf);
+  src: url(https://xcomic.org/assets/fonts/text.ttf);
 }
 
 @font-face {
   font-family: mm;
-  src: url(https://xpc54.github.io/xcomic_host98/assets/fonts/regular.ttf);
+  src: url(https://xcomic.org/assets/fonts/regular.ttf);
 }
 
 @font-face {
   font-family: phs;
-  src: url(https://xpc54.github.io/xcomic_host98/assets/fonts/phs.ttf);
+  src: url(https://xcomic.org/assets/fonts/phs.ttf);
 }
 
 body {
@@ -22,8 +22,8 @@ body {
 
 .info {
   background: rgba(0, 0, 0, 0.1);
-  opacity: 0.6;
-  color: rgb(255, 204, 0);
+  opacity: 1;
+  color: rgb(0, 0, 0);
   border-radius: 15px;
 }
 
@@ -46,11 +46,15 @@ h4,
 h5,
 h6 {
   font-family: "Jost", sans-serif, txt;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 p {
   font-family: "Jost", sans-serif, mm;
   line-height: 1.8em;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
@@ -1279,12 +1283,12 @@ section {
   list-style: none;
   color: #999;
   text-align: left;
-  line-height: 1.8em;
+  line-height: 1.5em;
   font-family: mm;
 }
 
 .pricing ul li {
-  padding: 10px 0 10px 30px;
+  padding: 5px 0 10px 30px;
   position: relative;
   
 }
@@ -1294,7 +1298,7 @@ section {
   font-size: 24px;
   position: absolute;
   left: 0;
-  top: 6px;
+  top: 2px;
 }
 
 .pricing ul .na {
