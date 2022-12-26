@@ -112,7 +112,7 @@ p {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 30px;
+  right: 25px;
   bottom: 100px;
   z-index: 996;
   background: #47b2e4;
