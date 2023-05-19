@@ -1,0 +1,94 @@
+
+{
+    "ads_id" : "testid",
+    
+    "sliders" : [
+        {
+        "name" : "ad_toys",
+        "link" : "https://mmonlineshopping.co",
+        "image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio5fCQWWWDjGr3m4KjIIJmgH6VQqBN6Cv7vACCj__bAqeYNvm34e4dDfN7kKtiYmpRU1QBn4VdGd-_1cUojF8ec5v5ewS9_tCExg6jB2L2tFA40mHmFknAfSchM5MnNUnr0A62k-RBx4EF-9VJru8yx801l9ZF6uzgRXTIzS5OF7bDdAWghT3j9vosCA/s1600/%E1%80%98%E1%80%B1%E1%80%AC%E1%80%9C%E1%80%AE%E1%80%A1%E1%80%9C%E1%80%94%E1%80%BA%E1%80%B8%E1%80%90%E1%80%BD%E1%80%B1%E1%80%96%E1%80%BC%E1%80%AF%E1%80%90%E1%80%BA%E1%80%96%E1%80%AD%E1%80%AF%E1%80%B7%20%E1%80%90%E1%80%B1%E1%80%AC%E1%80%BA%E1%80%80%E1%80%AE%E1%80%A1%E1%80%86%E1%80%94%E1%80%BA%E1%80%B8%E1%80%90%E1%80%BD%E1%80%B1%20%E1%80%99%E1%80%9C%E1%80%AD%E1%80%AF%E1%80%90%E1%80%B1%E1%80%AC%E1%80%B7%E1%80%95%E1%80%AB%E1%80%98%E1%80%B0%E1%80%B8%20%282062%20%C3%97%201036%20px%29%20%281%29"
+        },
+        {
+        "name" : "ad",
+        "link" : "https://m.facebook.com/XcomicProduction/",
+        "image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_xRSXqsIf_UrwA7NyXaR3lHOn-N5ijo4wQwqXBgiL4oAYTUXYK4fKMEy6iQ8G4rm1c4lNcic_wGZMMziiuCEpcc5ifSKrtqXJhLOd01HiLEAhjRfHWpowS57ZebaclqUGrCJXhImnPeWwsPmvwz-aEPak9vhq8WYXkNpOzZ47QG_-pa_NsyU-Mv7gYQ/s0/1624349301-picsayt-picsay.jpg"
+        }
+    ],
+    
+    "series" : [
+            {
+            "encrypted":false,
+            "json":true,
+            "category": "Drama, Mature, Romance, Slice of Life, Campus, Harem, Senior, Junior",
+            "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvbxAN2xy7nXXY-krVYgSGxhPjMZA7AAJD3JyvqF4z5qGZulEvtTMvbdxvs70sdRQviYWUI6OjiFhhe-gYCGf6tDwz75_dXRsA9ggBI9yHMb3IdYxxgtlZTNO1o_7kBprBqv2rWUcywaczAl1-YkE7yFtcW264UMTju33F5mWri86FZ1Oj8U1FDgRAHQ/s1600/Screenshot%202023-02-19%20at%208.48.04%20AM.png",
+            "link": "https://raw.githubusercontent.com/IXC87/98data87578/main/data/DanceDepartmentFemaleSunbaes/episodes.json",
+            "rating": "TOONILY 4.5/5",
+            "review": "무용과 여선배들, Dancing with the Girls \n\nTae-Ho, the only guy in the Dance Department, who has now become their slave, one day finds a strange pair of panties in the Dance room. Ever since that day his eyes had been opened to his surroundings, not to mention close contact stretching had also started…",
+            "title": "Dance Department’s Female Sunbaes"
+            },
+            {
+            "encrypted":false,
+            "json":false,
+            "cover": "https://toonily.com/wp-content/uploads/2021/05/Mother-Hunting-manhwa.jpg",
+            "link": "https://free.xcomic.org/series/info/Mother%20Hunting",
+            "title": "Mother Hunting"
+            },
+            {
+            "encrypted":false,
+            "json":false,
+            "cover": "https://toonily.com/wp-content/uploads/2022/04/tall.webp",
+            "link": "https://free.xcomic.org/series/info/Madam",
+            "title": "Madam"
+            },
+            {
+            "encrypted":false,
+            "json":false,
+            "cover": "https://toonily.com/wp-content/uploads/2021/11/Read-Noonas-Taste-manhwa-for-free-224x320.jpeg",
+            "link": "https://free.xcomic.org/series/info/Taste%20of%20My%20Sister",
+            "title": "Taste of My Sister"
+            },
+            {
+            "encrypted":false,
+            "json":false,
+            "cover": "https://toonily.com/wp-content/uploads/2020/06/Read-Queen-Bee-manhwa-toptoon-for-free-224x320.jpg",
+            "link": "https://free.xcomic.org/series/info/QueenBee",
+            "title": "QueenBee"
+            },
+            {
+            "encrypted":false,
+            "json":false,
+            "cover": "https://toonily.com/wp-content/uploads/2020/10/Read-Sister-Neighbors-manga-toptoon-free-224x320.jpg",
+            "link": "https://free.xcomic.org/series/info/Sister%20Neighbor%20-%20%E1%80%A1%E1%80%AD%E1%80%99%E1%80%BA%E1%80%94%E1%80%AE%E1%80%B8%E1%80%81%E1%80%BB%E1%80%84%E1%80%BA%E1%80%B8%E1%80%99%E1%80%99",
+            "title": "Sister Neighbor - အိမ်နီးချင်းမမ"
+            },
+            {
+            "encrypted":false,
+            "json":false,
+            "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoagVs3uN5CWzG4eFDZ8Y_3vQBniTy9gKAls7Yc4oQo6olvcbTSuHYzmuqGY-AnBlNlJz0-OOeSvGYm4wYMv_LZCxcyHGjTrk1LxL4pZRFYqmwXs3TP4LJrL6V3WZfWDMU-sOdhEpqyB-eJYqsPJVZTOVS_2VGYG-dLBJIHeS9eZblMkJcBVjC_xyo2Q/s0/netorare.jpeg",
+            "link": "https://free.xcomic.org/series/info/Netorare%20My%20Teacher%20with%20My%20Friends",
+            "title": "Netorare My Teacher with My Friends"
+            },
+            {
+            "encrypted":false,
+            "json":false,
+            "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEht635Lu-u3VULVZr_zcko_ZYIAyyfPnHF4iapmupSeHTkMBLzJKys8p6OM2q5Hja6fAcYUifvtW2YJ-G8XTdyC2WWLz7LFDfl32X8BrTWepZ2Y3EcYkUEzzfSs08sYLcGTZoVNWKi4jMB0KGeIuogImXq7HPOYjL7EoxBpLL7H_RQf7TfLCv6IiCZ-nw/s0/27-picsay.jpg",
+            "link": "https://free.xcomic.org/series/info/Soothe%20Me",
+            "title": "Soothe Me"
+            },
+            {
+            "encrypted":false,
+            "json":false,
+            "cover": "https://blogger.googleusercontent.com/img/a/AVvXsEg9PyECykxYXRRtq-HbjLzFuejml3zLb9I5zec0JGMbJIWRx8QsxlOA4DuO7M1VLIFz4nL3i2RS_SzAI8pyhlCiSazzc7JAnCGdx1nQnaxcrvDwe0Zv35QIk7XxbImUZLunLzV_j34cNB-dd14kwfYEOtuM3b4g8DIubRx5og3DZJGO_6SxyYylMAYkZA=s0",
+            "link": "https://free.xcomic.org/series/info/Panty%20Note",
+            "title": "Panty Note"
+            },
+            {
+            "encrypted":false,
+            "json":false,
+            "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH6I6SU98R5ZpmtiebH3Dn6SHWJ_6vW_f_06qnTzZw73X2N2HlC5Ws1X2PsOzeH5LZYioXSkZ6z0HXkR7RCVQMHsp4miTiXqsUmMO2El37C-b4nphWNURXwap_hV_OFcN_xdWfhxmN41z7yEZXHHwpiRqPMtEYFNubC9hu7jm4UUhKBvw_ygMpjgupMg/s0/Run-Away.jpg",
+            "link": "https://free.xcomic.org/series/info/Run%20Away%20%28%20%E1%80%A1%E1%80%AD%E1%80%99%E1%80%BA%E1%80%95%E1%80%BC%E1%80%B1%E1%80%B8%20%29",
+            "title": "Run Away ( အိမ်ပြေး )"
+            }
+   
+    ]
+}
