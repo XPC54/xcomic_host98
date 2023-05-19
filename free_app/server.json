@@ -1,6 +1,6 @@
 {
   "server_on" : true,
-  "version" : "1.0",
+  "version" : "0.1",
   "forced_update" : false,
   "play_store_link" : "store",
   "direct_link" : "direct",
