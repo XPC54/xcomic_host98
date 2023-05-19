@@ -2,11 +2,11 @@
   "server_on" : true,
   "version" : "1.0",
   "forced_update" : false,
-  "sponsor_image" : "",
-  "sponsor_link" : "",
+  "sponsor_image" : "http",
+  "sponsor_link" : "http",
   "app_open_dialog_on" : false,
-  "app_open_dialog_image" : "",
-  "app_open_dialog_link" : "",
+  "app_open_dialog_image" : "htp",
+  "app_open_dialog_link" : "jdfsf",
   "detail_banner_id" : "ca-app-pub-3940256099942544/6300978111",
   "detail_inter_id" : "ca-app-pub-3940256099942544/1033173712"
 }
