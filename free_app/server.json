@@ -1,5 +1,5 @@
 {
-  "server_on" : false,
+  "server_on" : true,
   "version" : "0.1",
   "forced_update" : false,
   "play_store_link" : "https://play.google.com",
