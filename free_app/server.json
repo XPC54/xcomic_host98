@@ -1,4 +1,4 @@
-{
+ {
   "server_on" : true,
   "version" : "0.1",
   "forced_update" : false,
@@ -7,9 +7,9 @@
   "update_message" : "update တင်ပါနော်",
   "sponsor_image" : "http",
   "sponsor_link" : "http",
-  "app_open_dialog_on" : false,
-  "app_open_dialog_image" : "htp",
-  "app_open_dialog_link" : "jdfsf",
+  "app_open_dialog_on" : true,
+  "app_open_dialog_image" : "https://brightlineit.com/wp-content/uploads/2017/03/170316-server-securty.jpg",
+  "app_open_dialog_link" : "https://xcomic.org",
   "detail_banner_id" : "ca-app-pub-3940256099942544/6300978111",
   "detail_inter_id" : "ca-app-pub-3940256099942544/1033173712"
 }
