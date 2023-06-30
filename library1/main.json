@@ -1,6 +1,7 @@
 
 {
     "ads_id" : "testid",
+    "inter_ads_id" : "interads",
     
     "sliders" : [
         {
