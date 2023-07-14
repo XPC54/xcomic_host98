@@ -1,10 +1,10 @@
  {
   "server_on" : true,
-  "version" : "1",
+  "version" : "2",
   "forced_update" : false,
   "play_store_link" : "https://play.google.com/store/apps/details?id=foe3.xlibrary.channel",
   "direct_link" : "https://xcomic.org/free_app/XLibrary%20-%20Your%20Custom%20Library_1.0.apk",
-  "update_message" : "Play Store မှာ Stable Version ရပါပြီနော် Update တင်ပေးပါခင်ဗျာ",
+  "update_message" : "Play Store မှာ Error fix ထားတဲ့ Version တင်ထားဆဲပါ မရသေးပါဘူး Cancel လေး နှိပ်လိုက်နော်",
   "is_sponsored" : false,
   "sponsor_image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnT7X9-i3TcNv8CIBEh-5YJlyhIyrJAXA_Ip3a0wajLecZl5CM3cGkWNKIxg7w8AW9MeF_Ii9ehxaeWyCHJTt1s-tFdsRV5q39z8TurpxfY9aVsoj6qxlEsX53oPHeioHW-ZxDr00KwpfWSF63NCHdDJ60eFEWSc2WtBDkhF3xAMeFOOyTO2KoCXN-UQ/s1600/1663141557-picsay.jpg",
   "sponsor_link" : "https://xcomic.org",
