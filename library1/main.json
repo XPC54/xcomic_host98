@@ -18,7 +18,59 @@
     
     "series" : [
            
-        
+
+    {
+    "encrypted":false,
+    "json":true,
+    "category": "Drama, Mature, Romance",
+    "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaKNw5y1Xk1FzAUSXVPqwiE40RJPE4Da7oczab4FTUMCEQyyZiAOAvr22yipgqzYWbFy3PdseI9as1BnqErigaslM7svNSzh4LgFGB8iqiDNFCwwMXDfF46bDNbPLyrYn2fATqVbYwTULdbz4gg0eXWr63OJaH_dyoOxyx9TPBY8dxNNdASmdcj4XM4pA/s0/photo_2023-09-15_21-26-24.jpg",
+    "link": "https://raw.githubusercontent.com/IXC87/98data87578/main/data/today_dinner/",
+    "rating": "4.7",
+    "review": "Suho loves eating anything and everything until he suffered a trauma during his childhood in which his mother abandoned him. He developed a hate for breastmilk for his mother always threatened him while breastfeeding. He still suffers from that till this day however, Sieun, who has been his childhood friend, always stayed by his side. Will he finally overcome that trauma thanks to her?",
+    "series_id": "0133",
+    "admob_id" : "testhousekeeper",
+    "status": "ongoing",
+    "title": "Today Dinner"
+    },
+    {
+    "encrypted":false,
+    "json":true,
+    "category": "Mature, Romance, School Life",
+    "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3XiVEuRf2d1qJuqJA2z4TYcB5nYLStQHrfSH7FZCmJ7fUzu3yOrL_RTW090qltZXCc4lzIutqpTrLm_ZO7vI-Xn4quzxgSz3FMzAWIYcrL8OYMHibARdjj1UsjEGoFMUqBfQQu0FDmlvlcMrbxSTeDY35MvTl9uycXH3PBUFVIcVa16rkiyhNbqZRd1A/s0/photo_2023-09-14_20-29-08.jpg",
+    "link": "https://raw.githubusercontent.com/IXC87/98data87578/main/data/campus_today/",
+    "rating": "4.0",
+    "review": "JIN-TAE is a freshman guy who got ruined his campus life because of a mean evil girl, DA-HYE. He has always been wished to get revenge on her. Now he finally found her fetal weakness!",
+    "series_id": "0132",
+    "admob_id" : "testhousekeeper",
+    "status": "ongoing",
+    "title": "Campus, Today"
+    },
+    {
+    "encrypted":false,
+    "json":true,
+    "category": "Romance, Drama, Mature",
+    "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNI3kn6Q0g47BSTOrwIwgYg2CuWI0Iuiv6LajIYq_6-JyBQVPNPXQN0TWMhCPn_XUVOA337_-1yEXQkEDwMdGemtqXw6kId5iDgbALHPODJyEeecaSEgZL1KxDWgNJ1aFzTW7EyJZD9W8TDz7KSdbqPI7YqvbSQe1f0HtwQs8_p0oKyRyLjgyq8B1DI8k/s0/Ulterior_Motive_290121_738-224x320.webp",
+    "link": "https://raw.githubusercontent.com/IXC87/98data87578/main/data/selfiness/",
+    "rating": "4.7",
+    "review": "In order to be admitted as a feature director, “Mun-su” must win one more award at the Short Film Festival. Masterpieces are created by famous actors! In order to recruit “Kang Su-ah”, a 1000 million actress who has returned to the theater and film department, “Mun-so” approaches her… “You… It’s acting, but how far are you going to go…!",
+    "series_id": "0131",
+    "admob_id" : "testhousekeeper",
+    "status": "ongoing",
+    "title": "Selfishness 100%"
+    },
+    {
+    "encrypted":false,
+    "json":true,
+    "category": "Romance, Drama, Mature",
+    "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTYXkjmj3gCbX_wHqGgUVrJDrSWaf_qU3SMTAUeuCRn9aappbaL0Bv6Nr1w3wzRJaT-tOcZjF4E8bYd5Z0MVab9-InrzNZPut8m7zTp0i94igQToqz2sd5z0Bzo2kTj9GrnBX1w9dE_uLmOnqEEUICqoQSgIgKUM7u6gtJDJv8K4quI_uVOmjDuFvFvOs/s0/photo_2023-09-09_19-52-16.jpg",
+    "link": "https://raw.githubusercontent.com/IXC87/98data87578/main/data/everything_about/",
+    "rating": "4.7",
+    "review": "Taiyang and Min Hao are good friends who grew up together, and they talked about everything, and even shared pornography together. But I don’t know where to start, there is a secret between them that can’t be shared with each other…",
+    "series_id": "0130",
+    "admob_id" : "testhousekeeper",
+    "status": "ongoing",
+    "title": "Everything About My Best Friend"
+    },
     {
     "encrypted":false,
     "json":true,
