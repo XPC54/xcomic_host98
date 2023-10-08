@@ -16,12 +16,12 @@
 
 
   "server_on" : true,
-  "version" : "2",
-  "forced_update" : false,
+  "version" : "2.1",
+  "forced_update" : true,
   "play_store_link" : "https://play.google.com/store/apps/details?id=foe3.xlibrary.channel",
-  "direct_link" : "https://xcomic.org/",
-  "update_message" : "ပြန်ပြန်ထွက်နေတဲ့ error ကို ဖြေရှင်းပြီးပါပြီနော် ခုပဲ Playstore ကနေ Update တင်လိုက်ပါဗျ",
-  "is_home_banner_on" : true,
+  "direct_link" : "https://apkpure.com/store/apps/details?id=foe3.xlibrary.channel",
+  "update_message" : "Update တင်ပေးကြပါ ဗားရှင်းအသစ်မှာ ဖတ်ပြီးသားတွေကို မှတ်ပေးထားတဲ့ စနစ်ပါလာပြီ ဖြစ်ပါတယ် ရှယ်ဖြစ်သွားပါပြီဗျ",
+  "is_home_banner_on" : false,
   "home_banner_sponsor_img" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiPr9eMaNGiBv6L8rWlW4DjGuMdelWl1FjOA5ZYFDle40mFi97uUP5xwcEj-Zzv6CNTwOJiVyzqYYOQv7Ka2p3CWJvLFWRvEPxLzJDKAW3WJ46n2HaYgKyQK6D0xodvfYr6JTmnbt7-LnrFUk1aTyrzMxtRwvlEH98R7NnLSc_kif9NQxtIZSdBTkFkoYu/s1600/ads_onshop.jpg",
   "home_banner_sponsor_link" : "xcomic.org",
   "is_sponsored" : false,
