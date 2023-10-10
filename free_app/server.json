@@ -16,8 +16,8 @@
 
 
   "server_on" : true,
-  "version" : "2.2",
-  "forced_update" : false,
+  "version" : "2.3",
+  "forced_update" : true,
   "play_store_link" : "https://play.google.com/store/apps/details?id=foe3.xlibrary.channel",
   "direct_link" : "https://apkpure.com/store/apps/details?id=foe3.xlibrary.channel",
   "update_message" : "Update တင်ပေးကြပါ ဗားရှင်းအသစ်မှာ ဖတ်ပြီးသားတွေကို မှတ်ပေးထားတဲ့ စနစ်ပါလာပြီ ဖြစ်ပါတယ် ရှယ်ဖြစ်သွားပါပြီဗျ",
