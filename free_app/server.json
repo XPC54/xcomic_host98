@@ -3,11 +3,6 @@
   "sponsor_list" : 
   [
     {
-    "name" : "ad_toys",
-    "link" : "https://mmonlineshopping.co",
-    "image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio5fCQWWWDjGr3m4KjIIJmgH6VQqBN6Cv7vACCj__bAqeYNvm34e4dDfN7kKtiYmpRU1QBn4VdGd-_1cUojF8ec5v5ewS9_tCExg6jB2L2tFA40mHmFknAfSchM5MnNUnr0A62k-RBx4EF-9VJru8yx801l9ZF6uzgRXTIzS5OF7bDdAWghT3j9vosCA/s1600/%E1%80%98%E1%80%B1%E1%80%AC%E1%80%9C%E1%80%AE%E1%80%A1%E1%80%9C%E1%80%94%E1%80%BA%E1%80%B8%E1%80%90%E1%80%BD%E1%80%B1%E1%80%96%E1%80%BC%E1%80%AF%E1%80%90%E1%80%BA%E1%80%96%E1%80%AD%E1%80%AF%E1%80%B7%20%E1%80%90%E1%80%B1%E1%80%AC%E1%80%BA%E1%80%80%E1%80%AE%E1%80%A1%E1%80%86%E1%80%94%E1%80%BA%E1%80%B8%E1%80%90%E1%80%BD%E1%80%B1%20%E1%80%99%E1%80%9C%E1%80%AD%E1%80%AF%E1%80%90%E1%80%B1%E1%80%AC%E1%80%B7%E1%80%95%E1%80%AB%E1%80%98%E1%80%B0%E1%80%B8%20%282062%20%C3%97%201036%20px%29%20%281%29"
-    },
-    {
     "name" : "ad",
     "link" : "https://m.facebook.com/XcomicProduction/",
     "image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJjByS-H7Tth-trpQ-tWZHcnrbYXMSMNAoVlRfY8ZHrz8IQwDMC69rw4EjXh7zhy7pxGaXcNwih9Hseh-6yThsebA1tCFNphRkH1wb9XYrCMFi39Y9qc1nLQbHP0jjYLg7WNtuXNknDn5JzkO4RHtGmIM14kejPQmMoalT3o1M_lM9tBn_xBHZMo82MWQU/s1600/ads.gif"
@@ -24,7 +19,7 @@
   "is_home_banner_on" : true,
   "home_banner_sponsor_img" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisixEhamEaYcoav2h7qwP-05u4mSDCyv6Jb9dnXwYNpv3kMLq71kJwXqqV670EAhjlEyc_Yp2i02jKUpJMsjQqXuOOV8HCIq_Mywby3mk9X0GmEvguy0lUo4bJB-1iBI2VaVAREtwNxXp7GDXhPnzJscggiAQubJXGiMxlrrEMmXsrMh_94aBfAKLMFgXN/s0/tell.jpg",
   "home_banner_sponsor_link" : "https://m.me/XComicProduction",
-  "is_sponsored" : false,
+  "is_sponsored" : true,
   "sponsor_image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJjByS-H7Tth-trpQ-tWZHcnrbYXMSMNAoVlRfY8ZHrz8IQwDMC69rw4EjXh7zhy7pxGaXcNwih9Hseh-6yThsebA1tCFNphRkH1wb9XYrCMFi39Y9qc1nLQbHP0jjYLg7WNtuXNknDn5JzkO4RHtGmIM14kejPQmMoalT3o1M_lM9tBn_xBHZMo82MWQU/s1600/ads.gif",
   "sponsor_link" : "https://m.facebook.com/rmtv229/posts/pfbid02XPrRMaxSn7qEhCmdU5P19m8WMwMFN3qzquFAeEJBXRc2GUsW7rrt9brMcX13Aradl",
   "app_open_dialog_on" : false,
