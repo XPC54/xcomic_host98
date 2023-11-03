@@ -11,12 +11,12 @@
 
 
   "server_on" : true,
-  "version" : "2.3",
-  "forced_update" : false,
+  "version" : "2.5",
+  "forced_update" : true,
   "play_store_link" : "https://play.google.com/store/apps/details?id=foe3.xlibrary.channel",
   "direct_link" : "https://apkpure.com/store/apps/details?id=foe3.xlibrary.channel",
-  "update_message" : "Update တင်ပေးကြပါ ဗားရှင်းအသစ်မှာ ဖတ်ပြီးသားတွေကို မှတ်ပေးထားတဲ့ စနစ်ပါလာပြီ ဖြစ်ပါတယ် ရှယ်ဖြစ်သွားပါပြီဗျ",
-  "is_inner_sponsored_on" : true,
+  "update_message" : "Update တင်ပေးကြပါ သုံးရတာ ပိုကောင်းလာအောင် စီစဥ်ပေးထားပါတယ်ဗျ\nPlease Update New Version",
+  "is_inner_sponsored_on" : false,
   "inner_sponsor_top_image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4bBVxQb_oSP7PQ0JY0ldNxDj4OvqQL2Lbp-z3S__gT-THlbVnS1C5d9g6a8Hg9UVmuvAOpCuRC70NShJM7Fq9qsTS-yHjDFkn1YVR5DM0_stxYaRBLY_EDuWq36FkQFlQzvXIjDy6VtV0Ujb0cvAYsZDR5Q6o1RtBZdS0JvaTuiIteO-yNn2EB88tRR65/s0/download%20%281%29.gif",
   "inner_sponsor_bot_image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4bBVxQb_oSP7PQ0JY0ldNxDj4OvqQL2Lbp-z3S__gT-THlbVnS1C5d9g6a8Hg9UVmuvAOpCuRC70NShJM7Fq9qsTS-yHjDFkn1YVR5DM0_stxYaRBLY_EDuWq36FkQFlQzvXIjDy6VtV0Ujb0cvAYsZDR5Q6o1RtBZdS0JvaTuiIteO-yNn2EB88tRR65/s0/download%20%281%29.gif",
   "is_home_banner_on" : true,
