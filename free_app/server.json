@@ -1,38 +1,34 @@
- {
-
-  "sponsor_list" : 
-  [
+{
+  "sponsor_list": [
     {
-    "name" : "ad",
-    "link" : "https://m.me/XComicProduction",
-    "image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisixEhamEaYcoav2h7qwP-05u4mSDCyv6Jb9dnXwYNpv3kMLq71kJwXqqV670EAhjlEyc_Yp2i02jKUpJMsjQqXuOOV8HCIq_Mywby3mk9X0GmEvguy0lUo4bJB-1iBI2VaVAREtwNxXp7GDXhPnzJscggiAQubJXGiMxlrrEMmXsrMh_94aBfAKLMFgXN/s0/tell.jpg"
+      "name": "ad",
+      "link": "https://m.me/XComicProduction",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisixEhamEaYcoav2h7qwP-05u4mSDCyv6Jb9dnXwYNpv3kMLq71kJwXqqV670EAhjlEyc_Yp2i02jKUpJMsjQqXuOOV8HCIq_Mywby3mk9X0GmEvguy0lUo4bJB-1iBI2VaVAREtwNxXp7GDXhPnzJscggiAQubJXGiMxlrrEMmXsrMh_94aBfAKLMFgXN/s0/tell.jpg"
     }
   ],
-
-
-  "server_on" : true,
-  "version" : "2.5",
-  "forced_update" : true,
-  "play_store_link" : "https://play.google.com/store/apps/details?id=foe3.xlibrary.channel",
-  "direct_link" : "https://apkpure.com/store/apps/details?id=foe3.xlibrary.channel",
-  "update_message" : "Update တင်ပေးကြပါ သုံးရတာ ပိုကောင်းလာအောင် စီစဥ်ပေးထားပါတယ်ဗျ\nPlease Update New Version",
-  "is_inner_sponsored_on" : false,
-  "inner_sponsor_top_image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4bBVxQb_oSP7PQ0JY0ldNxDj4OvqQL2Lbp-z3S__gT-THlbVnS1C5d9g6a8Hg9UVmuvAOpCuRC70NShJM7Fq9qsTS-yHjDFkn1YVR5DM0_stxYaRBLY_EDuWq36FkQFlQzvXIjDy6VtV0Ujb0cvAYsZDR5Q6o1RtBZdS0JvaTuiIteO-yNn2EB88tRR65/s0/download%20%281%29.gif",
-  "inner_sponsor_bot_image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4bBVxQb_oSP7PQ0JY0ldNxDj4OvqQL2Lbp-z3S__gT-THlbVnS1C5d9g6a8Hg9UVmuvAOpCuRC70NShJM7Fq9qsTS-yHjDFkn1YVR5DM0_stxYaRBLY_EDuWq36FkQFlQzvXIjDy6VtV0Ujb0cvAYsZDR5Q6o1RtBZdS0JvaTuiIteO-yNn2EB88tRR65/s0/download%20%281%29.gif",
-  "is_home_banner_on" : true,
-  "home_banner_sponsor_img" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisixEhamEaYcoav2h7qwP-05u4mSDCyv6Jb9dnXwYNpv3kMLq71kJwXqqV670EAhjlEyc_Yp2i02jKUpJMsjQqXuOOV8HCIq_Mywby3mk9X0GmEvguy0lUo4bJB-1iBI2VaVAREtwNxXp7GDXhPnzJscggiAQubJXGiMxlrrEMmXsrMh_94aBfAKLMFgXN/s0/tell.jpg",
-  "home_banner_sponsor_link" : "https://m.me/XComicProduction",
-  "is_sponsored" : false,
-  "sponsor_image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisixEhamEaYcoav2h7qwP-05u4mSDCyv6Jb9dnXwYNpv3kMLq71kJwXqqV670EAhjlEyc_Yp2i02jKUpJMsjQqXuOOV8HCIq_Mywby3mk9X0GmEvguy0lUo4bJB-1iBI2VaVAREtwNxXp7GDXhPnzJscggiAQubJXGiMxlrrEMmXsrMh_94aBfAKLMFgXN/s0/tell.jpg",
-  "sponsor_link" : "https://m.me/XComicProduction",
-  "app_open_dialog_on" : true,
-  "app_open_dialog_image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_ahKCRRiaTz4Zu5f6FDzoxLeBq1qPaR5KlGCA5wem2sAbhvwJlL2m_ATLWniuf2FVlwg9rTCGMuyVCRC_6T_knuYyeDj83rDUnBr17kByNfQhjdTU3GTMYAyNn4zvOaIRF2VU8g-0L4fMINJKPB5HiQIp_V8MrLINPJLIwCkCW36bMCuzA4XRQkNdn6IT/s1600/rate.png",
-  "app_open_dialog_link" : "https://apkpure.com/store/apps/details?id=foe3.xlibrary.channel",
-  "detail_banner_id" : "ca-app-pub-3547526675926302/7295763710",
-  "detail_inter_id" : "ca-app-pub-3547526675926302/2423221736",
-  "detail_rewarded_inter_id" : "ca-app-pub-3547526675926302/7471340760",
-  "read_inter_id" : "ca-app-pub-3547526675926302/7400216248",
-  "meta_banner_id" : "990571195389707_1000286081084885",
-  "meta_inter_id" : "990571195389707_990573088722851",
-  "meta_inter_rewarded_id" : "990571195389707_990573202056173"
+  "server_on": true,
+  "version": "2.5",
+  "forced_update": true,
+  "play_store_link": "https://play.google.com/store/apps/details?id=foe3.xlibrary.channel",
+  "direct_link": "https://apkpure.com/store/apps/details?id=foe3.xlibrary.channel",
+  "update_message": "Update တင်ပေးကြပါ သုံးရတာ ပိုကောင်းလာအောင် စီစဥ်ပေးထားပါတယ်ဗျ\nPlease Update New Version",
+  "is_inner_sponsored_on": false,
+  "inner_sponsor_top_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4bBVxQb_oSP7PQ0JY0ldNxDj4OvqQL2Lbp-z3S__gT-THlbVnS1C5d9g6a8Hg9UVmuvAOpCuRC70NShJM7Fq9qsTS-yHjDFkn1YVR5DM0_stxYaRBLY_EDuWq36FkQFlQzvXIjDy6VtV0Ujb0cvAYsZDR5Q6o1RtBZdS0JvaTuiIteO-yNn2EB88tRR65/s0/download%20%281%29.gif",
+  "inner_sponsor_bot_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4bBVxQb_oSP7PQ0JY0ldNxDj4OvqQL2Lbp-z3S__gT-THlbVnS1C5d9g6a8Hg9UVmuvAOpCuRC70NShJM7Fq9qsTS-yHjDFkn1YVR5DM0_stxYaRBLY_EDuWq36FkQFlQzvXIjDy6VtV0Ujb0cvAYsZDR5Q6o1RtBZdS0JvaTuiIteO-yNn2EB88tRR65/s0/download%20%281%29.gif",
+  "is_home_banner_on": true,
+  "home_banner_sponsor_img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisixEhamEaYcoav2h7qwP-05u4mSDCyv6Jb9dnXwYNpv3kMLq71kJwXqqV670EAhjlEyc_Yp2i02jKUpJMsjQqXuOOV8HCIq_Mywby3mk9X0GmEvguy0lUo4bJB-1iBI2VaVAREtwNxXp7GDXhPnzJscggiAQubJXGiMxlrrEMmXsrMh_94aBfAKLMFgXN/s0/tell.jpg",
+  "home_banner_sponsor_link": "https://m.me/XComicProduction",
+  "is_sponsored": false,
+  "sponsor_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisixEhamEaYcoav2h7qwP-05u4mSDCyv6Jb9dnXwYNpv3kMLq71kJwXqqV670EAhjlEyc_Yp2i02jKUpJMsjQqXuOOV8HCIq_Mywby3mk9X0GmEvguy0lUo4bJB-1iBI2VaVAREtwNxXp7GDXhPnzJscggiAQubJXGiMxlrrEMmXsrMh_94aBfAKLMFgXN/s0/tell.jpg",
+  "sponsor_link": "https://m.me/XComicProduction",
+  "app_open_dialog_on": true,
+  "app_open_dialog_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_ahKCRRiaTz4Zu5f6FDzoxLeBq1qPaR5KlGCA5wem2sAbhvwJlL2m_ATLWniuf2FVlwg9rTCGMuyVCRC_6T_knuYyeDj83rDUnBr17kByNfQhjdTU3GTMYAyNn4zvOaIRF2VU8g-0L4fMINJKPB5HiQIp_V8MrLINPJLIwCkCW36bMCuzA4XRQkNdn6IT/s1600/rate.png",
+  "app_open_dialog_link": "https://apkpure.com/store/apps/details?id=foe3.xlibrary.channel",
+  "detail_banner_id": "ca-app-pub-3547526675926302/7295763710",
+  "detail_inter_id": "ca-app-pub-3547526675926302/2423221736",
+  "detail_rewarded_inter_id": "ca-app-pub-3547526675926302/7471340760",
+  "read_inter_id": "ca-app-pub-3547526675926302/7400216248",
+  "meta_banner_id": "990571195389707_1000286081084885",
+  "meta_inter_id": "990571195389707_990573088722851",
+  "meta_inter_rewarded_id": "990571195389707_990573202056173"
 }
