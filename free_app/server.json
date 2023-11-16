@@ -22,7 +22,7 @@
   "is_home_banner_on" : true,
   "home_banner_sponsor_img" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisixEhamEaYcoav2h7qwP-05u4mSDCyv6Jb9dnXwYNpv3kMLq71kJwXqqV670EAhjlEyc_Yp2i02jKUpJMsjQqXuOOV8HCIq_Mywby3mk9X0GmEvguy0lUo4bJB-1iBI2VaVAREtwNxXp7GDXhPnzJscggiAQubJXGiMxlrrEMmXsrMh_94aBfAKLMFgXN/s0/tell.jpg",
   "home_banner_sponsor_link" : "https://m.me/XComicProduction",
-  "is_sponsored" : true,
+  "is_sponsored" : false,
   "sponsor_image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisixEhamEaYcoav2h7qwP-05u4mSDCyv6Jb9dnXwYNpv3kMLq71kJwXqqV670EAhjlEyc_Yp2i02jKUpJMsjQqXuOOV8HCIq_Mywby3mk9X0GmEvguy0lUo4bJB-1iBI2VaVAREtwNxXp7GDXhPnzJscggiAQubJXGiMxlrrEMmXsrMh_94aBfAKLMFgXN/s0/tell.jpg",
   "sponsor_link" : "https://m.me/XComicProduction",
   "app_open_dialog_on" : true,
