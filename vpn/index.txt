@@ -14,6 +14,8 @@ vless://9c0ff824-2915-4fbc-8687-992dfb3e3a79@us-full.privateip.net:443?security=
 vless://9b12b685-9089-4f5e-bed4-ca060db7b979@de2-full.privateip.net:443?security=tls&encryption=none&type=ws&path=/VLESS&fp=chrome#🇺🇸 | All Networks  13
 vless://784ac000-557e-4b07-ba1b-de1ef3788ec7@hk-full.privateip.net:443?security=tls&encryption=none&type=ws&path=/VLESS&fp=chrome#🇭🇰 | ALL Networks  14
 vless://305705d2-ffcc-487f-a827-e728e61681d2@nl2-full.privateip.net:443?security=tls&encryption=none&type=ws&path=/VLESS&fp=chrome#🇳🇱 | ALL Networks  15
+vless://27b62e51-7efb-4a18-ad9c-a4b073149f27@ca-full.privateip.net:443?security=tls&encryption=none&type=ws&path=/VLESS&fp=chrome#🇨🇦 | ALL Networks 16
+vmess://eyJhbHBuIjoiIiwidHlwZSI6Im5vbmUiLCJhZGQiOiIxMjkuMTUxLjE2NC4xNTIiLCJpZCI6ImUzMGY4NTg4LTI1NTUtNDhiOC1jMzU0LWM4ZTYzZjU3MjMyZCIsInBhdGgiOiJcLyIsInNlcnZpY2VOYW1lIjoibm9uZSIsInNlZWQiOiIiLCJ2IjoiMiIsIm5ldCI6IndzIiwicHMiOiLwn4e/8J+HpiB8IEFMTCBOZXQgKCBNUFQgU3BlY2lhbCApIiwidGxzIjoibm9uZSIsInNuaSI6IiIsInBvcnQiOiI1NTYwMCIsImhlYWRlclR5cGUiOiIiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImZwIjoiIiwiZGV2aWNlSUQiOiIifQ==
 
 
 
