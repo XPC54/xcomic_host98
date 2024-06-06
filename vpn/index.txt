@@ -1,19 +1,20 @@
-vless://f96fd8d9-13c9-4aec-f936-a8b4bbc87a30@134.209.97.92:443?flow=xtls-rprx-vision&security=reality&encryption=none&type=tcp&fp=chrome&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&headerType=none#🇸🇬 VIP 200GB 1
+
 vless://d7bbfe83-b037-48ae-996c-b98ed0441ba2@188.114.97.141:443?security=tls&encryption=none&type=ws&host=e10c0e4b.oodaeq2.pages.dev&path=Tel-proxy_mtm/?ed%3D2048&sni=e10c0e4b.oodaeq2.pages.dev&fp=chrome#🇸🇬 Premium 1
 vless://f8f5dce2-e66b-45bd-957e-53c1ecdda37a@104.21.3.182:443?security=tls&encryption=none&type=ws&host=JAvIdsHAH.PaGes.DEV&path=/pPQqxfK8yz3JBNAb?ed%3D2560&sni=jAVIdshAh.PageS.deV&fp=randomized&alpn=h2,http/1.1#🇸🇬 Premium 2
-vless://0ead275b-54c7-4f70-f327-7541928e9e44@134.209.97.92:39720?flow=xtls-rprx-vision&security=reality&encryption=none&type=tcp&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&headerType=none#🇸🇬 For Mom 100 GB
-vless://8ee0b19c-a22e-4d14-ddc4-8477e2a14448@134.209.97.92:39720?flow=xtls-rprx-vision&security=reality&encryption=none&type=tcp&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&headerType=none#🇸🇬 For Dad 100 GB
-vless://d907b1ab-833e-4fb3-9c99-299a34e2cf1f@134.209.97.92:39720?flow=xtls-rprx-vision&security=reality&encryption=none&type=tcp&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&headerType=none#🇸🇬 For GrandPa 100 GB
-vless://f36b16e5-2df5-4f3e-84d5-313d35056bdc@134.209.97.92:39720?flow=xtls-rprx-vision&security=reality&encryption=none&type=tcp&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&headerType=none#🇸🇬 For Grandma 100 GB
-vless://bdacd2ee-4e18-42c7-d932-c65884458df3@134.209.97.92:39720?flow=xtls-rprx-vision&security=reality&encryption=none&type=tcp&fp=chrome&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&headerType=none#🇸🇬 For Respect 100 GB
-vless://fff9564e-1c28-4479-ca57-4923ebbc4369@134.209.97.92:443?flow=xtls-rprx-vision&security=reality&encryption=none&type=tcp&fp=chrome&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&headerType=none#🇸🇬 VIP 200 GB 2
-vless://0544f5d3-9cd7-4dec-df73-c1797cad248f@134.209.97.92:443?flow=xtls-rprx-vision&security=reality&encryption=none&type=tcp&fp=chrome&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&headerType=none#🇸🇬 VIP 200 GB 3
-vless://5a107ccb-daec-4075-f404-32ee1be07804@134.209.97.92:443?flow=xtls-rprx-vision&security=reality&encryption=none&type=tcp&fp=chrome&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&headerType=none#🇸🇬 VIP 200 GB 4
-vless://18c6dfbf-a7e7-44cc-f135-9ac992e39fa6@134.209.97.92:443?flow=xtls-rprx-vision&security=reality&encryption=none&type=tcp&fp=chrome&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&headerType=none#🇸🇬 VIP 200 GB 5
+vless://f96fd8d9-13c9-4aec-f936-a8b4bbc87a30@134.209.97.92:443?type=tcp&security=reality&sni=www.speedtest.org&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CVIP%201%7C200GB
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxcTdSTkthSWsyd1lPOGZFUG1FWDB2V1E3VmErUVJUQUA5MS4xOTIuODEuMjE6ODM4OA==#🇸🇬 | MPT Only SS Server
+vless://fff9564e-1c28-4479-ca57-4923ebbc4369@134.209.97.92:443?type=tcp&security=reality&sni=www.speedtest.org&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CVIP%202%7C200GB
+vless://0544f5d3-9cd7-4dec-df73-c1797cad248f@134.209.97.92:443?type=tcp&security=reality&sni=www.speedtest.org&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CVIP%203%7C200GB
 vless://9c0ff824-2915-4fbc-8687-992dfb3e3a79@us-full.privateip.net:443?security=tls&encryption=none&type=ws&path=/VLESS&fp=chrome#🇺🇸 | ALL Networks  12
+vless://5a107ccb-daec-4075-f404-32ee1be07804@134.209.97.92:443?type=tcp&security=reality&sni=www.speedtest.org&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CVIP%204%7C200GB
+vless://18c6dfbf-a7e7-44cc-f135-9ac992e39fa6@134.209.97.92:443?type=tcp&security=reality&sni=www.speedtest.org&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CVIP%205%7C200GB
 vless://9b12b685-9089-4f5e-bed4-ca060db7b979@de2-full.privateip.net:443?security=tls&encryption=none&type=ws&path=/VLESS&fp=chrome#🇺🇸 | All Networks  13
+vless://0ead275b-54c7-4f70-f327-7541928e9e44@134.209.97.92:39720?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CFor%20Papa%7C100GB
+vless://8ee0b19c-a22e-4d14-ddc4-8477e2a14448@134.209.97.92:39720?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CFor%20Mama%7C100GB
+vless://d907b1ab-833e-4fb3-9c99-299a34e2cf1f@134.209.97.92:39720?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CFor%20GrandPa%7C100GB
+vless://f36b16e5-2df5-4f3e-84d5-313d35056bdc@134.209.97.92:39720?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CFor%20GrandMa%7C100GB
 vless://784ac000-557e-4b07-ba1b-de1ef3788ec7@hk-full.privateip.net:443?security=tls&encryption=none&type=ws&path=/VLESS&fp=chrome#🇭🇰 | ALL Networks  14
+vless://bdacd2ee-4e18-42c7-d932-c65884458df3@134.209.97.92:39720?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CFor%20Emergency%7C100GB
 vless://305705d2-ffcc-487f-a827-e728e61681d2@nl2-full.privateip.net:443?security=tls&encryption=none&type=ws&path=/VLESS&fp=chrome#🇳🇱 | ALL Networks  15
 vless://27b62e51-7efb-4a18-ad9c-a4b073149f27@ca-full.privateip.net:443?security=tls&encryption=none&type=ws&path=/VLESS&fp=chrome#🇨🇦 | ALL Networks 16
 
