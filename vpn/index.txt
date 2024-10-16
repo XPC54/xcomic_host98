@@ -1,30 +1,9 @@
-vless://2e04d2dc-beca-4526-94b6-e7d6c4c83884@sg2.v2vless.xyz:443?encryption=none&security=tls&sni=sg2.v2vless.xyz&type=ws&host=sg2.v2vless.xyz&path=%2Fvless#sshocean-ssh7day-ws
-vmess://ew0KICAiYWRkIjogImpwLXYycmF5LmlwcmFjZXZwbi5jb20iLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAiaG9zdCI6ICIiLA0KICAiaWQiOiAiNzQ1YTEwMDItNjEzNi00YTYxLWI4NjUtODZlMmUyOWJmOGI2IiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAicGF0aCI6ICIvIiwNCiAgInBvcnQiOiAiMjA4MyIsDQogICJwcyI6ICJqcC12MnJheS5pcHJhY2V2cG4uY29tLXNwZ3lteW1zIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJ0eXBlIjogImh0dHAiLA0KICAidiI6ICIyIiwNCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiDQp9
-vless://d7bbfe83-b037-48ae-996c-b98ed0441ba2@188.114.97.141:443?security=tls&encryption=none&type=ws&host=e10c0e4b.oodaeq2.pages.dev&path=Tel-proxy_mtm/?ed%3D2048&sni=e10c0e4b.oodaeq2.pages.dev&fp=chrome#🇸🇬 Premium 1
-vmess://ew0KICAiYWRkIjogInNnLXYycmF5LmlwcmFjZXZwbi5jb20iLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAiaG9zdCI6ICIiLA0KICAiaWQiOiAiOTE0MzhkZDgtYmY3ZS00NmJlLTkxYWQtYjEzMzc2NmIwOTgyIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAicGF0aCI6ICIiLA0KICAicG9ydCI6ICI0NDMiLA0KICAicHMiOiAic2ctdjJyYXkuaXByYWNldnBuLmNvbS1xbm1oM3Y0YiIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAidHlwZSI6ICJub25lIiwNCiAgInYiOiAiMiIsDQogICJhbHBuIjogImgyLGh0dHAvMS4xIg0KfQ==
-vless://f8f5dce2-e66b-45bd-957e-53c1ecdda37a@104.21.3.182:443?security=tls&encryption=none&type=ws&host=JAvIdsHAH.PaGes.DEV&path=/pPQqxfK8yz3JBNAb?ed%3D2560&sni=jAVIdshAh.PageS.deV&fp=randomized&alpn=h2,http/1.1#🇸🇬 Premium 2
-vmess://eyJkZXZpY2VJRCI6IiIsImhlYWRlclR5cGUiOiJub25lIiwiYWlkIjoiMCIsImZwIjoiY2hyb21lIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwidGxzIjoidGxzIiwic2VlZCI6IiIsImFscG4iOiJoMixodHRwXC8xLjEiLCJzbmkiOiIiLCJzZXJ2aWNlTmFtZSI6Im5vbmUiLCJ2IjoiMiIsIm5ldCI6InRjcCIsImFkZCI6Im5sLXYycmF5LmZyZWV2bWVzcy5jb20iLCJwcyI6IvCfh7Pwn4exIHwgTVBUIFNlcnZlciIsImlkIjoiNTU5YjA5NGQtNWMxNC00NGRmLWFkMjEtY2ZiNGU1YWJiNGMwIiwicG9ydCI6IjIwODMiLCJwYXRoIjoiIn0=
-vless://b16e1f11-96c9-4f7b-92c0-2e7e109ca1da@134.209.97.92:443?type=tcp&security=reality&sni=www.speedtest.org&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&flow=xtls-rprx-vision&fp=chrome#🇸🇬|VIP1Server1|100GB
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxcTdSTkthSWsyd1lPOGZFUG1FWDB2V1E3VmErUVJUQUA5MS4xOTIuODEuMjE6ODM4OA==#🇸🇬 | MPT Only SS Server
-vless://c6b748da-fa2d-424d-bc1b-5bc78638823a@167.71.203.233:32385/?type=tcp&security=reality&sni=addons.mozilla.org&pbk=Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4&flow=xtls-rprx-vision&fp=chrome#🇸🇬|VIPForShittyWifi@xray.com|150GB
-vless://895f60c7-6f7c-4978-b3f4-d09d3fb48e5d@sg3.v2vless.xyz:443?encryption=none&security=tls&sni=sg3.v2vless.xyz&type=ws&host=sg3.v2vless.xyz&path=%2Fvless#sshocean-ssh3-ws
-vless://2d3564e9-0f1f-4337-c592-b29d9feb9586@167.71.203.233:27360/?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&flow=xtls-rprx-vision&fp=chrome#ForMe|VIP2Server1|100GB
-vless://92f8610d-3f62-4566-ba72-bdc0f41a3b26@ca1.v2vless.xyz:443?encryption=none&security=tls&sni=ca1.v2vless.xyz&type=ws&host=ca1.v2vless.xyz&path=%2Fvless#sshocean-sshocean-ws
-vless://149ada94-d1a5-4a28-e9fa-19e576f22516@206.189.158.196:14395/?type=tcp&security=reality&sni=www.speedtest.net&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&flow=xtls-rprx-vision&fp=chrome#🇸🇬BackUp|VIP3Server1|100GB
-vless://4bae4b72-caa8-4925-8613-08c784d1691d@ca2.v2vless.xyz:443?encryption=none&security=tls&sni=ca2.v2vless.xyz&type=ws&host=ca2.v2vless.xyz&path=%2Fvless#sshocean-sshocean2-ws
-vless://5a107ccb-daec-4075-f404-32ee1be07804@134.209.97.92:443?type=tcp&security=reality&sni=www.speedtest.org&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CVIP%204%7C200GB
-vless://18c6dfbf-a7e7-44cc-f135-9ac992e39fa6@134.209.97.92:443?type=tcp&security=reality&sni=www.speedtest.org&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CVIP%205%7C200GB
-vless://005ad0be-1fd8-4b24-9796-393eda6b7e92@134.209.97.92:443?type=tcp&security=reality&sni=www.speedtest.org&pbk=9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc&flow=xtls-rprx-vision&fp=chrome#🇸🇬|VIP1Server2|100GB
-vless://d4ccffaa-9299-416c-face-c3f14ad9d5f4@167.71.203.233:27360/?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&flow=xtls-rprx-vision&fp=chrome#ForMe|VIP2Server2|100GB
-vless://428e0d06-8943-4d7d-f2cf-59414d536167@206.189.158.196:14395/?type=tcp&security=reality&sni=www.speedtest.net&pbk=g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14&flow=&fp=chrome#🇸🇬BackUp|VIP3Server2|100GB
-vless://ba5686a0-e88b-4e24-a4a5-f1fec0ebcea3@167.71.203.233:32385/?type=tcp&security=reality&sni=addons.mozilla.org&pbk=Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4&flow=xtls-rprx-vision&fp=chrome#🇸🇬|VIPforShitWifi@xray.com|150GB|2024-7-9 2:4:32
-vless://0ead275b-54c7-4f70-f327-7541928e9e44@134.209.97.92:39720?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CFor%20Papa%7C100GB
-vless://8ee0b19c-a22e-4d14-ddc4-8477e2a14448@134.209.97.92:39720?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CFor%20Mama%7C100GB
-vless://d907b1ab-833e-4fb3-9c99-299a34e2cf1f@134.209.97.92:39720?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CFor%20GrandPa%7C100GB
-vless://f36b16e5-2df5-4f3e-84d5-313d35056bdc@134.209.97.92:39720?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CFor%20GrandMa%7C100GB
-vless://bdacd2ee-4e18-42c7-d932-c65884458df3@134.209.97.92:39720?type=tcp&security=reality&sni=blog.api.www.cloudflare.com&pbk=g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM&flow=xtls-rprx-vision&fp=chrome#%F0%9F%87%B8%F0%9F%87%AC%7CFor%20Emergency%7C100GB
-
-
-
-
-
+vless://a26834f3-6c70-4743-a9fe-e54e64f68335@sg.xcomic.org:26290?type=tcp&security=none#%F0%9F%87%B8%F0%9F%87%AC1%7C17-10-2024.2%3A00PM
+vless://d2ba1a82-2dab-445c-82c8-c422e635bebb@sg.xcomic.org:12761?type=tcp&security=none#%F0%9F%87%B8%F0%9F%87%AC2%7C17-10-2024.2%3A00PM
+vless://b378aefc-aa4f-4301-afc7-957a16629683@sg.xcomic.org:47948?type=tcp&security=none#%F0%9F%87%B8%F0%9F%87%AC3%7C17-10-2024.2%3A00PM
+vless://3c93ca15-4705-44aa-8e8b-61be9cc7c712@us.xcomic.org:58922?type=tcp&security=none#%F0%9F%87%BA%F0%9F%87%B81%7C17-10-2024.2%3A00PM
+vless://6bd1c45f-5d4b-4b75-a76d-c7bb22d760f6@us.xcomic.org:58449?type=tcp&security=none#%F0%9F%87%BA%F0%9F%87%B82%7C17-10-2024.2%3A00PM
+vless://cc251d75-9737-4974-8c5c-26424370d8bc@us.xcomic.org:27626?type=tcp&security=none#%F0%9F%87%BA%F0%9F%87%B83%7C17-10-2024.2%3A00PM
+vless://cbb42320-5f76-4991-b91d-d696e9d2b153@aus.xcomic.org:25994?type=tcp&security=none#%F0%9F%87%A6%F0%9F%87%BA1%7C17-10-2024
+vless://aed6ad58-0957-4640-a1df-7729207762d1@aus.xcomic.org:36061?type=tcp&security=none#%F0%9F%87%A6%F0%9F%87%BA2%7C17-10-2024
+vless://5b1326c8-dcca-43f6-9d74-c5828eeb3c04@aus.xcomic.org:41989?type=tcp&security=none#%F0%9F%87%A6%F0%9F%87%BA3%7C17-10-2024
