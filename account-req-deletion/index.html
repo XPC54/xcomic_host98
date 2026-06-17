@@ -97,3 +97,51 @@
             color: var(--muted);
             font-size: 14px;
         }
+
+        @media (max-width: 520px) {
+            main {
+                width: min(100% - 24px, 880px);
+                padding: 28px 0;
+            }
+
+            .panel {
+                padding: 18px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <header>
+        <h1>Account Deletion Request</h1>
+        <p class="summary">XLibrary account deletion requests are currently managed manually while the account deletion form is under maintenance.</p>
+    </header>
+
+    <section class="panel" aria-label="Account deletion instructions">
+        <h2>How to request account deletion</h2>
+
+        <p>The Account Deletion Form is currently under maintenance. If you want to delete your XLibrary account, please contact XLibrary support directly and our team will manually manage your request.</p>
+
+        <p>Please send your request to:</p>
+        <p class="email"><a href="mailto:support@xcomic.org">support@xcomic.org</a></p>
+
+        <p>Your request must be sent from the same email address that was used to create or access your XLibrary account. This helps us verify that the request is coming from the account owner.</p>
+
+        <p>Please include the following information in your email:</p>
+        <ul>
+            <li>Email address used for the account</li>
+            <li>Username</li>
+            <li>Reason for account deletion</li>
+        </ul>
+
+        <p>After we receive your request, we may contact you for verification if needed. Once the request is verified and processed, account data associated with that account will be deleted unless limited retention is required for security, abuse prevention, legal, or operational reasons.</p>
+
+        <p class="note">Please do not include passwords, payment information, government ID, or other sensitive personal information in your email.</p>
+    </section>
+</main>
+</body>
+</html>
