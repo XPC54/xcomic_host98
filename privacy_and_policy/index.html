@@ -3,15 +3,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>XLibrary Privacy Policy</title>
+    <title>XLibrary 2.0 - Your Library Privacy Policy</title>
+    <meta name="description" content="Privacy Policy for XLibrary 2.0 - Your Library.">
     <style>
         :root {
-            color-scheme: dark;
-            --bg: #061a2b;
-            --panel: #082338;
-            --border: #123a58;
-            --text: #e8f2fb;
-            --muted: #9fb2c3;
+            color-scheme: light;
+            --bg: #f6f8fb;
+            --panel: #ffffff;
+            --text: #17202a;
+            --muted: #5d6d7e;
+            --border: #d8e0ea;
+            --accent: #1167d8;
+            --accent-soft: #e8f1ff;
+            --success: #16794c;
         }
 
         * {
@@ -23,100 +27,239 @@
             background: var(--bg);
             color: var(--text);
             font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.7;
+            line-height: 1.65;
         }
 
         main {
             width: min(920px, calc(100% - 32px));
             margin: 0 auto;
-            padding: 40px 0;
+            padding: 32px 0;
         }
 
-        header {
-            text-align: center;
-            margin-bottom: 24px;
+        .hero {
+            display: flex;
+            gap: 18px;
+            align-items: center;
+            margin-bottom: 22px;
+        }
+
+        .logo {
+            width: 72px;
+            height: 72px;
+            border-radius: 18px;
+            box-shadow: 0 10px 28px rgba(17, 103, 216, 0.16);
         }
 
         h1 {
             margin: 0;
-            font-size: 28px;
-            line-height: 1.25;
+            font-size: 30px;
+            line-height: 1.2;
         }
 
         .summary {
-            margin: 12px auto 0;
-            max-width: 720px;
+            margin: 8px 0 0;
             color: var(--muted);
             font-size: 15px;
         }
 
-        .policy {
+        .panel {
             background: var(--panel);
             border: 1px solid var(--border);
-            border-radius: 8px;
+            border-radius: 10px;
             padding: 24px;
-            font-size: 15px;
+            margin-top: 16px;
+            box-shadow: 0 12px 30px rgba(23, 32, 42, 0.06);
         }
 
-        .policy-title {
-            margin: 0 0 18px;
+        h2 {
+            margin: 0 0 12px;
             font-size: 20px;
             line-height: 1.35;
         }
 
         p {
-            margin: 0 0 18px;
+            margin: 0 0 14px;
         }
 
-        p:last-child {
-            margin-bottom: 0;
+        ul {
+            margin: 0 0 16px;
+            padding-left: 22px;
         }
 
-        @media (max-width: 520px) {
+        li {
+            margin: 6px 0;
+        }
+
+        a {
+            color: var(--accent);
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+            margin-top: 14px;
+        }
+
+        .info {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 14px;
+            background: #fbfdff;
+        }
+
+        .label {
+            display: block;
+            color: var(--muted);
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+
+        .value {
+            font-weight: 700;
+        }
+
+        .badge {
+            display: inline-block;
+            color: var(--success);
+            background: #e9f8f1;
+            border: 1px solid #bde5d1;
+            border-radius: 999px;
+            padding: 4px 10px;
+            font-size: 13px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .note {
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        @media (max-width: 640px) {
             main {
                 width: min(100% - 24px, 920px);
-                padding: 28px 0;
+                padding: 24px 0;
             }
 
-            .policy {
-                padding: 18px;
+            .hero {
+                align-items: flex-start;
+            }
+
+            .logo {
+                width: 58px;
+                height: 58px;
+                border-radius: 14px;
             }
 
             h1 {
                 font-size: 24px;
+            }
+
+            .panel {
+                padding: 18px;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
 <body>
 <main>
-    <header>
-        <h1>Privacy Policy</h1>
-        <p class="summary">This privacy notice explains what XLibrary handles directly and what may be collected by third-party SDKs used in the app.</p>
+    <header class="hero">
+        <img class="logo" src="../account-req-deletion/assets/logo.png" alt="XLibrary 2.0 - Your Library logo">
+        <div>
+            <h1>XLibrary 2.0 - Your Library Privacy Policy</h1>
+            <p class="summary">This policy explains how XLibrary 2.0 - Your Library handles account data, library sync data, app diagnostics, and third-party SDK data.</p>
+        </div>
     </header>
 
-    <section class="policy" aria-label="XLibrary Privacy Policy">
-        <h2 class="policy-title">XLibrary Privacy Policy</h2>
+    <section class="panel" aria-label="App and developer information">
+        <span class="badge">Official privacy policy</span>
+        <h2>App and developer information</h2>
+        <p>This Privacy Policy applies to the Android app <strong>XLibrary 2.0 - Your Library</strong>, package name <strong>com.xlibrary.xcomicmsub</strong>.</p>
 
-        <p>1. XLibrary uses Google Analytics/Firebase Analytics SDK and Google AdMob SDK. These Google SDKs may collect app activity, device information, advertising identifiers, crash/diagnostic information, and ad-related signals according to Google's policies and user consent settings.</p>
+        <div class="info-grid">
+            <div class="info">
+                <span class="label">App name</span>
+                <span class="value">XLibrary 2.0 - Your Library</span>
+            </div>
+            <div class="info">
+                <span class="label">Developer name</span>
+                <span class="value">SHIBA SARAN</span>
+            </div>
+            <div class="info">
+                <span class="label">Contact email</span>
+                <span class="value"><a href="mailto:contact4shiba@gmail.com">contact4shiba@gmail.com</a></span>
+            </div>
+            <div class="info">
+                <span class="label">Last updated</span>
+                <span class="value">June 25, 2026</span>
+            </div>
+        </div>
+    </section>
 
-        <p>2. XLibrary itself does not sell personal data. XLibrary does not use the app to collect your contacts, location, camera, microphone, SMS, call logs, payment card data, government ID, or device files.</p>
+    <section class="panel" aria-label="Information collected">
+        <h2>Information we collect</h2>
+        <p>XLibrary 2.0 - Your Library is a reader and library manager. The app can be used without creating an account, but some optional features require account data so users can sync and restore their library data across devices.</p>
 
-        <p>3. XLibrary does not scan or collect the contents of your all libraries and books, book pages, comic pages, episode images, or reading files from third-party library sources. Library and book content is loaded for reading on your device, and XLibrary may not know what every external source contains.</p>
+        <p>If you choose to create or use an account, we may collect and process information needed for account access and app functionality, including:</p>
+        <ul>
+            <li>Email address, username, and login credentials</li>
+            <li>Phone number, if you provide one during account setup or profile use</li>
+            <li>Account status and account identifiers</li>
+            <li>Saved library sources, synced library records, reading state, and sync preferences</li>
+            <li>App interactions related to library management, sync, backup, and restore features</li>
+        </ul>
 
-        <p>4. If you choose to create or use an account, only the information needed for account access, saved library list review, library sync, backup, restore, and related app features may be used, such as login credentials, account status, saved library source records, and reading/sync state. Email and phone information are optional where the app allows them. You may leave optional profile fields empty or use non-personal/random values if you do not want to provide real contact details.</p>
+        <p>XLibrary does not use the app to collect your contacts, precise location, camera, microphone, SMS, call logs, payment card data, government ID, or unrelated device files.</p>
+    </section>
 
-        <p>5. Saved library source records may be stored only to support account sync, backup, restore, and library management features. XLibrary does not claim ownership of your library sources and does not use them to identify the contents of third-party pages.</p>
+    <section class="panel" aria-label="Third-party SDKs and external libraries">
+        <h2>Third-party SDKs and external libraries</h2>
+        <p>XLibrary uses Google Analytics/Firebase Analytics, Firebase services, Google AdMob, and related Google SDKs. These services may collect app activity, device information, advertising identifiers, crash logs, diagnostics, and ad-related signals according to Google's policies and user consent settings.</p>
 
-        <p>6. XLibrary uses HTTPS for official server communication where available. External library sources are controlled by third parties, so their privacy and security practices may differ from XLibrary.</p>
+        <p>The app may allow users to add and manage external library sources. External library sources are controlled by third parties, so their privacy and security practices may differ from XLibrary. XLibrary does not own or control the content, privacy practices, or data handling of third-party library websites and sources.</p>
+    </section>
 
-        <p>7. You may request account deletion at any time through XLibrary support. When an account deletion request is processed, account data associated with that account will be deleted unless limited retention is required for security, abuse prevention, legal, or operational reasons.</p>
+    <section class="panel" aria-label="How information is used">
+        <h2>How we use information</h2>
+        <p>We use collected information only for appropriate app and service purposes, including:</p>
+        <ul>
+            <li>Creating, signing in to, and managing user accounts</li>
+            <li>Providing cloud sync, backup, restore, and reading-state features</li>
+            <li>Helping users manage saved library sources and preferences</li>
+            <li>Improving app reliability, diagnosing crashes, and fixing bugs</li>
+            <li>Showing ads, measuring ad performance, and preventing ad abuse where Google AdMob is used</li>
+            <li>Protecting account security, preventing abuse, and complying with applicable legal obligations</li>
+        </ul>
 
-        <p>8. You can use the app without providing optional email or phone profile details where those fields are not required for the specific feature you are using.</p>
+        <p>XLibrary does not sell personal data.</p>
+    </section>
 
-        <p>9. For privacy, account deletion, copyright, or external library concerns, contact XLibrary support from the app's Settings page.</p>
+    <section class="panel" aria-label="Security, retention, and deletion">
+        <h2>Security, retention, and account deletion</h2>
+        <p>XLibrary uses HTTPS for official server communication where available. External library sources may use their own security practices and are outside our direct control.</p>
 
-        <p>Continuing to use this app means you have read, understood, and agreed to this Privacy Policy.</p>
+        <p>Account and sync data is retained only as long as needed to provide account-based features, maintain service security, prevent abuse, meet operational needs, or comply with applicable legal obligations.</p>
+
+        <p>You may request account deletion at any time. Verified and approved deletion requests are processed within 30 days. Account profile information, login or account identifiers, synced library data, saved library sources, reading or sync preferences, and other data directly associated with the account are deleted unless limited retention is required for security, abuse prevention, fraud investigation, legal compliance, or operational logs.</p>
+
+        <p>Limited retained records are normally deleted or anonymized within 90 days unless a longer retention period is required by law or an active security investigation.</p>
+    </section>
+
+    <section class="panel" aria-label="Contact">
+        <h2>Contact us</h2>
+        <p>For privacy, account deletion, copyright, or external library concerns, contact XLibrary support at <a href="mailto:contact4shiba@gmail.com">contact4shiba@gmail.com</a>.</p>
+        <p class="note">Please do not send passwords, payment information, government ID, or other sensitive personal information by email.</p>
     </section>
 </main>
 </body>
