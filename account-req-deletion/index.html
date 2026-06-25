@@ -3,16 +3,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>XLibrary Account Deletion Request</title>
+    <title>XLibrary 2.0 - Your Library Account Deletion Request</title>
+    <meta name="description" content="Request deletion of your XLibrary 2.0 - Your Library account and associated data.">
     <style>
         :root {
-            color-scheme: dark;
-            --bg: #061a2b;
-            --panel: #082338;
-            --border: #123a58;
-            --text: #e8f2fb;
-            --muted: #9fb2c3;
-            --accent: #7fc7ff;
+            color-scheme: light;
+            --bg: #f6f8fb;
+            --panel: #ffffff;
+            --text: #17202a;
+            --muted: #5d6d7e;
+            --border: #d8e0ea;
+            --accent: #1167d8;
+            --accent-soft: #e8f1ff;
+            --success: #16794c;
         }
 
         * {
@@ -24,29 +27,37 @@
             background: var(--bg);
             color: var(--text);
             font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.7;
+            line-height: 1.65;
         }
 
         main {
-            width: min(880px, calc(100% - 32px));
+            width: min(920px, calc(100% - 32px));
             margin: 0 auto;
-            padding: 40px 0;
+            padding: 32px 0;
         }
 
-        header {
-            text-align: center;
-            margin-bottom: 24px;
+        .hero {
+            display: flex;
+            gap: 18px;
+            align-items: center;
+            margin-bottom: 22px;
+        }
+
+        .logo {
+            width: 72px;
+            height: 72px;
+            border-radius: 18px;
+            box-shadow: 0 10px 28px rgba(17, 103, 216, 0.16);
         }
 
         h1 {
             margin: 0;
-            font-size: 28px;
-            line-height: 1.25;
+            font-size: 30px;
+            line-height: 1.2;
         }
 
         .summary {
-            margin: 12px auto 0;
-            max-width: 720px;
+            margin: 8px 0 0;
             color: var(--muted);
             font-size: 15px;
         }
@@ -54,24 +65,29 @@
         .panel {
             background: var(--panel);
             border: 1px solid var(--border);
-            border-radius: 8px;
+            border-radius: 10px;
             padding: 24px;
-            font-size: 15px;
+            margin-top: 16px;
+            box-shadow: 0 12px 30px rgba(23, 32, 42, 0.06);
         }
 
         h2 {
-            margin: 0 0 14px;
+            margin: 0 0 12px;
             font-size: 20px;
             line-height: 1.35;
         }
 
         p {
-            margin: 0 0 16px;
+            margin: 0 0 14px;
         }
 
-        ul {
-            margin: 0 0 18px;
+        ul, ol {
+            margin: 0 0 16px;
             padding-left: 22px;
+        }
+
+        li {
+            margin: 6px 0;
         }
 
         a {
@@ -84,13 +100,49 @@
             text-decoration: underline;
         }
 
-        .email {
-            display: inline-block;
-            margin: 4px 0 18px;
-            padding: 10px 14px;
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+            margin-top: 14px;
+        }
+
+        .info {
             border: 1px solid var(--border);
             border-radius: 8px;
-            background: rgba(127, 199, 255, 0.08);
+            padding: 14px;
+            background: #fbfdff;
+        }
+
+        .label {
+            display: block;
+            color: var(--muted);
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+
+        .value {
+            font-weight: 700;
+        }
+
+        .email {
+            display: inline-block;
+            padding: 10px 14px;
+            border: 1px solid #b9d4ff;
+            border-radius: 8px;
+            background: var(--accent-soft);
+        }
+
+        .badge {
+            display: inline-block;
+            color: var(--success);
+            background: #e9f8f1;
+            border: 1px solid #bde5d1;
+            border-radius: 999px;
+            padding: 4px 10px;
+            font-size: 13px;
+            font-weight: 700;
+            margin-bottom: 12px;
         }
 
         .note {
@@ -98,53 +150,105 @@
             font-size: 14px;
         }
 
-        @media (max-width: 520px) {
+        @media (max-width: 640px) {
             main {
-                width: min(100% - 24px, 880px);
-                padding: 28px 0;
+                width: min(100% - 24px, 920px);
+                padding: 24px 0;
+            }
+
+            .hero {
+                align-items: flex-start;
+            }
+
+            .logo {
+                width: 58px;
+                height: 58px;
+                border-radius: 14px;
+            }
+
+            h1 {
+                font-size: 24px;
             }
 
             .panel {
                 padding: 18px;
             }
 
-            h1 {
-                font-size: 24px;
+            .info-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
 <body>
 <main>
-    <header>
-        <h1>Account Deletion Request</h1>
-        <p class="summary">Use this page to request deletion of your XLibrary account and associated account data.</p>
+    <header class="hero">
+        <img class="logo" src="../assets/logo.png" alt="XLibrary 2.0 - Your Library logo">
+        <div>
+            <h1>XLibrary 2.0 - Your Library Account Deletion Request</h1>
+            <p class="summary">Submit a verified request to permanently delete your XLibrary 2.0 - Your Library account and related account data.</p>
+        </div>
     </header>
+
+    <section class="panel" aria-label="App and developer information">
+        <span class="badge">Official account deletion support</span>
+        <h2>App and developer information</h2>
+        <p>This page is for the Android app <strong>XLibrary 2.0 - Your Library</strong>, package name <strong>com.xlibrary.xcomicmsub</strong>.</p>
+
+        <div class="info-grid">
+            <div class="info">
+                <span class="label">App name</span>
+                <span class="value">XLibrary 2.0 - Your Library</span>
+            </div>
+            <div class="info">
+                <span class="label">Developer name</span>
+                <span class="value">SHIBA SARAN</span>
+            </div>
+            <div class="info">
+                <span class="label">Developer address</span>
+                <span class="value">Japan</span>
+            </div>
+            <div class="info">
+                <span class="label">Contact email</span>
+                <span class="value"><a href="mailto:contact4shiba@gmail.com">contact4shiba@gmail.com</a></span>
+            </div>
+        </div>
+    </section>
 
     <section class="panel" aria-label="Account deletion instructions">
         <h2>How to request account deletion</h2>
-
-        <p>For account security and abuse prevention, XLibrary reviews account deletion requests manually before completion. If you want to delete your XLibrary account, please contact XLibrary support and our team will verify the request before approving deletion on the server.</p>
+        <p>For account security and abuse prevention, XLibrary 2.0 - Your Library reviews account deletion requests manually before completion. If you want to delete your account, please contact the developer support email below and our team will verify the request before approving deletion on the server.</p>
 
         <p>Please send your request to:</p>
-        <p class="email"><a href="mailto:support@xcomic.org">support@xcomic.org</a></p>
+        <p class="email"><a href="mailto:contact4shiba@gmail.com">contact4shiba@gmail.com</a></p>
 
-        <p>Your request should be sent from the same email address that was used to create or access your XLibrary account. If we cannot verify ownership from that email alone, we may ask for additional account-verification details before processing the request.</p>
+        <p>Your request should be sent from the same email address that was used to create or access your XLibrary 2.0 - Your Library account. If we cannot verify ownership from that email alone, we may ask for additional account-verification details before processing the request.</p>
 
         <p>Please include the following information in your email:</p>
         <ul>
             <li>Email address used for the account</li>
+            <li>Phone number used for the account, if you provided one</li>
             <li>Username</li>
-            <li>Reason for account deletion</li>
+            <li>A short note saying that you want to delete your XLibrary 2.0 - Your Library account</li>
         </ul>
 
         <p>After we receive your request, we will review it and may contact you for verification if needed. Verified and approved account deletion requests are processed within 30 days.</p>
+    </section>
 
+    <section class="panel" aria-label="Deleted and retained data">
         <h2>Data deleted after approval</h2>
-        <p>When an account deletion request is verified and approved, XLibrary deletes the user's account profile, login or account identifiers, synced library data, saved library sources, reading or sync preferences, and other data directly associated with the XLibrary account.</p>
+        <p>When an account deletion request is verified and approved, XLibrary 2.0 - Your Library deletes data directly associated with the account, including:</p>
+        <ul>
+            <li>Account profile information</li>
+            <li>Login or account identifiers, including email address and phone number if provided</li>
+            <li>Username and account metadata</li>
+            <li>Synced library data</li>
+            <li>Saved library sources</li>
+            <li>Reading or sync preferences associated with the account</li>
+        </ul>
 
         <h2>Data retained and retention period</h2>
-        <p>XLibrary may retain limited records only when needed for security, abuse prevention, fraud investigation, legal compliance, or operational logs. These limited records are kept only as long as necessary and are normally deleted or anonymized within 90 days unless a longer retention period is required by law or an active security investigation.</p>
+        <p>XLibrary 2.0 - Your Library, published by SHIBA SARAN, may retain limited records only when needed for security, abuse prevention, fraud investigation, legal compliance, or operational logs. These limited records are kept only as long as necessary and are normally deleted or anonymized within 90 days unless a longer retention period is required by law or an active security investigation.</p>
 
         <p class="note">Please do not include passwords, payment information, government ID, or other sensitive personal information in your email.</p>
     </section>
