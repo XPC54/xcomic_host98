@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XLibrary 2.0 Library Tutorial</title>
+  <meta name="description" content="Learn how to share web collections, create XLibrary JSON libraries, and generate an XLibrary Key.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --xl-bg: #f6f9fc;
+      --xl-ink: #102033;
+      --xl-muted: #607086;
+      --xl-line: #dfe8f2;
+      --xl-primary: #1667d9;
+      --xl-primary-soft: #e8f1ff;
+      --xl-panel: #ffffff;
+      --xl-code: #0d1b2a;
+    }
+
+    body {
+      background: var(--xl-bg);
+      color: var(--xl-ink);
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    .navbar {
+      background: rgba(255, 255, 255, 0.94);
+      border-bottom: 1px solid var(--xl-line);
+      backdrop-filter: blur(10px);
+    }
+
+    .brand-mark {
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      object-fit: cover;
+      box-shadow: 0 8px 24px rgba(22, 103, 217, 0.18);
+    }
+
+    .hero {
+      padding: 92px 0 54px;
+      background:
+        radial-gradient(circle at top left, rgba(22, 103, 217, 0.16), transparent 34rem),
+        linear-gradient(180deg, #ffffff 0%, var(--xl-bg) 100%);
+      border-bottom: 1px solid var(--xl-line);
+    }
+
+    .hero h1 {
+      max-width: 860px;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    .hero .lead {
+      max-width: 760px;
+      color: var(--xl-muted);
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: var(--xl-primary-soft);
+      color: #0e4da3;
+      font-weight: 700;
+      font-size: 0.88rem;
+    }
+
+    .section-card {
+      background: var(--xl-panel);
+      border: 1px solid var(--xl-line);
+      border-radius: 8px;
+      box-shadow: 0 18px 48px rgba(16, 32, 51, 0.06);
+    }
+
+    .step-number {
+      width: 34px;
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 9px;
+      background: var(--xl-primary);
+      color: white;
+      font-weight: 800;
+      flex: 0 0 auto;
+    }
+
+    .muted {
+      color: var(--xl-muted);
+    }
+
+    .table thead th {
+      color: var(--xl-muted);
+      font-size: 0.86rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    pre {
+      margin: 0;
+      padding: 18px;
+      color: #dbeafe;
+      background: var(--xl-code);
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 0.92rem;
+    }
+
+    code {
+      color: #0754bd;
+    }
+
+    pre code {
+      color: inherit;
+    }
+
+    .anchor-offset {
+      scroll-margin-top: 96px;
+    }
+
+    .mini-callout {
+      border-left: 4px solid var(--xl-primary);
+      background: #f8fbff;
+      border-radius: 8px;
+    }
+
+    .notice-card {
+      background: #fffdf7;
+      border: 1px solid #f0dfb8;
+      border-left: 5px solid #d99b16;
+      border-radius: 8px;
+    }
+
+    .notice-label {
+      color: #8a5a00;
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .nav-pills .nav-link {
+      color: var(--xl-muted);
+      border: 1px solid var(--xl-line);
+      background: white;
+      margin: 4px;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+
+    .nav-pills .nav-link.active {
+      background: var(--xl-primary);
+      border-color: var(--xl-primary);
+    }
+
+    footer {
+      border-top: 1px solid var(--xl-line);
+      color: var(--xl-muted);
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-3 fw-bold" href="#top">
+        <img class="brand-mark" src="assets/logo.png" alt="XLibrary logo">
+        <span>XLibrary 2.0 Tutorial</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="#web-collection">Web Collection</a>
+          <a class="nav-link" href="#json-format">JSON Format</a>
+          <a class="nav-link" href="#xlibrary-key">XLibrary Key</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header id="top" class="hero">
+    <div class="container">
+      <span class="pill mb-3">Library Tutorial</span>
+      <h1 class="display-5 mb-3">Build a source that XLibrary can read, load, and share.</h1>
+      <p class="lead mb-4">
+        This guide shows the two supported ways to add external library sources: a normal web collection
+        and a static JSON library. It also explains how to turn your library URL into an XLibrary Key for easier sharing.
+      </p>
+      <div class="d-flex flex-wrap gap-2">
+        <a class="btn btn-primary btn-lg" href="#quick-start">Start guide</a>
+        <a class="btn btn-outline-primary btn-lg" href="#json-example">View JSON example</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container py-5">
+    <section class="notice-card p-4 p-lg-5 mb-5">
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-3">
+          <div class="notice-label mb-2">Notice</div>
+          <h2 class="h4 fw-bold mb-0">Host and share responsibly</h2>
+        </div>
+        <div class="col-lg-9">
+          <p class="mb-3">
+            XLibrary does not host external library content for you. If you want to use a custom web
+            collection or JSON library, you are responsible for hosting those files on your own server,
+            website, or storage service.
+          </p>
+          <p class="mb-3">
+            Please share your library sources only with people you trust, such as friends, family, or
+            private reading groups. XLibrary does not encourage public sharing of illegal content,
+            copyrighted content that you do not have permission to distribute, or any material that
+            may violate local laws, platform rules, or another person&apos;s rights.
+          </p>
+          <p class="mb-0 muted">
+            This tutorial is written for users who are comfortable with basic web hosting, JSON files,
+            URLs, and simple technical setup. If you are new to these topics, take it step by step:
+            start with a normal web collection, then move to JSON format when you are ready.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="quick-start" class="section-card p-4 p-lg-5 mb-5 anchor-offset">
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-5">
+          <h2 class="h3 fw-bold mb-3">Choose the right sharing method</h2>
+          <p class="muted mb-0">
+            Use web collection mode when you only want to share a readable website. Use JSON mode when
+            you want XLibrary to show series, covers, chapters, and reader pages inside the app.
+          </p>
+        </div>
+        <div class="col-lg-7">
+          <div class="table-responsive">
+            <table class="table align-middle mb-0">
+              <thead>
+                <tr>
+                  <th>Method</th>
+                  <th>Best for</th>
+                  <th>App behavior</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Web collection</strong><br><code>json: false</code></td>
+                  <td>Sharing a normal HTTPS website or source page.</td>
+                  <td>XLibrary keeps it as a web source.</td>
+                </tr>
+                <tr>
+                  <td><strong>JSON library</strong><br><code>json: true</code></td>
+                  <td>Showing series lists and episodes in the reader.</td>
+                  <td>XLibrary fetches <code>main.json</code> and <code>episodes.json</code>.</td>
+                </tr>
+                <tr>
+                  <td><strong>XLibrary Key</strong></td>
+                  <td>Sharing a library URL without asking users to paste a long link.</td>
+                  <td>The app decodes the key and loads the original HTTPS library URL.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <ul class="nav nav-pills mb-4">
+      <li class="nav-item">
+        <a class="nav-link active" href="#web-collection">1. Web collection</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#json-format">2. JSON format</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#xlibrary-key">3. XLibrary Key</a>
+      </li>
+    </ul>
+
+        <div id="web-collection" class="section-card p-4 p-lg-5 mb-5">
+          <div class="d-flex gap-3 mb-3">
+            <span class="step-number">1</span>
+            <div>
+              <h2 class="h3 fw-bold mb-2">Share your web collection <span class="text-primary">(isjson false)</span></h2>
+              <p class="muted mb-0">
+                This mode is for a normal web page or website source. XLibrary saves the title, cover, and link,
+                then opens the source as a web collection instead of trying to parse it as JSON.
+              </p>
+            </div>
+          </div>
+
+          <div class="row g-4 mt-2">
+            <div class="col-lg-6">
+              <h3 class="h5 fw-bold">When to use this</h3>
+              <ul class="mb-4">
+                <li>Your source is already a website.</li>
+                <li>You do not have <code>main.json</code> and <code>episodes.json</code>.</li>
+                <li>You want users to browse the source in the app browser.</li>
+              </ul>
+              <div class="mini-callout p-3">
+                <strong>Required:</strong> the link should be HTTPS. Non-secure links may be blocked by the app.
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h3 class="h5 fw-bold">Example saved item</h3>
+              <pre><code>{
+  "title": "My Web Collection",
+  "cover": "https://example.com/assets/cover.jpg",
+  "status": "Recent",
+  "link": "https://example.com/library/",
+  "encrypted": false,
+  "json": false
+}</code></pre>
+            </div>
+          </div>
+        </div>
+
+        <div id="json-format" class="section-card p-4 p-lg-5 mb-5">
+          <div class="d-flex gap-3 mb-3">
+            <span class="step-number">2</span>
+            <div>
+              <h2 class="h3 fw-bold mb-2">JSON format only</h2>
+              <p class="muted mb-0">
+                JSON mode is the format XLibrary can read as a real library. Your base URL must host a
+                <code>main.json</code> file, and every series link must point to a folder that hosts <code>episodes.json</code>.
+              </p>
+            </div>
+          </div>
+
+          <div class="row g-4 mt-2">
+            <div class="col-lg-5">
+              <h3 class="h5 fw-bold">Folder structure</h3>
+              <pre><code>my-library/
+  main.json
+  covers/
+    space-hero.jpg
+  space-hero/
+    episodes.json
+    chapter-1/
+      001.jpg
+      002.jpg</code></pre>
+              <div class="mini-callout p-3 mt-3">
+                The library URL you add to XLibrary should be the base folder:
+                <code>https://example.com/my-library/</code>
+              </div>
+            </div>
+            <div class="col-lg-7" id="json-example">
+              <h3 class="h5 fw-bold">main.json example</h3>
+              <pre><code>{
+  "series": [
+    {
+      "category": "Action, Adventure",
+      "cover": "https://example.com/my-library/covers/space-hero.jpg",
+      "link": "https://example.com/my-library/space-hero/",
+      "rating": "4.8",
+      "review": "A short description for this series.",
+      "series_id": "space-hero",
+      "status": "Ongoing",
+      "title": "Space Hero",
+      "encrypted": false,
+      "json": true,
+      "view": "12500",
+      "last_updated_time": "2026-06-26"
+    }
+  ]
+}</code></pre>
+            </div>
+          </div>
+
+          <div class="mt-4">
+            <h3 class="h5 fw-bold">episodes.json example</h3>
+            <p class="muted">
+              In the current app code, episode images are read from the <code>content</code> string and split by comma.
+              Keep image URLs separated with commas.
+            </p>
+            <pre><code>[
+  {
+    "episode": "Chapter 1",
+    "content": "https://example.com/my-library/space-hero/chapter-1/001.jpg,https://example.com/my-library/space-hero/chapter-1/002.jpg,https://example.com/my-library/space-hero/chapter-1/003.jpg"
+  },
+  {
+    "episode": "Chapter 2",
+    "content": "https://example.com/my-library/space-hero/chapter-2/001.jpg,https://example.com/my-library/space-hero/chapter-2/002.jpg"
+  }
+]</code></pre>
+          </div>
+
+          <div class="row g-4 mt-3">
+            <div class="col-md-6">
+              <h3 class="h5 fw-bold">Important rules</h3>
+              <ul>
+                <li>Use HTTPS URLs for the library, cover images, and chapter images.</li>
+                <li>The base library URL must end with <code>/</code>.</li>
+                <li><code>main.json</code> must contain a top-level <code>series</code> array.</li>
+                <li>Each series <code>link</code> should point to the folder that contains <code>episodes.json</code>.</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h3 class="h5 fw-bold">Quick test</h3>
+              <ol>
+                <li>Open <code>https://example.com/my-library/main.json</code> in a browser.</li>
+                <li>Open <code>https://example.com/my-library/space-hero/episodes.json</code>.</li>
+                <li>Confirm both URLs show valid JSON without a login page or redirect error.</li>
+                <li>Add <code>https://example.com/my-library/</code> in XLibrary.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div id="xlibrary-key" class="section-card p-4 p-lg-5 mb-5">
+          <div class="d-flex gap-3 mb-3">
+            <span class="step-number">3</span>
+            <div>
+              <h2 class="h3 fw-bold mb-2">Create your library as an XLibrary Key</h2>
+              <p class="muted mb-0">
+                An XLibrary Key is generated from your library URL. It lets you share a shorter app-friendly key
+                while the app still loads the original HTTPS library source.
+              </p>
+            </div>
+          </div>
+
+          <div class="row g-4 mt-2">
+            <div class="col-lg-6">
+              <h3 class="h5 fw-bold">Steps in the app</h3>
+              <ol>
+                <li>Host your JSON library online.</li>
+                <li>Confirm your base URL works, for example <code>https://example.com/my-library/</code>.</li>
+                <li>Open XLibrary settings.</li>
+                <li>Open the library key generator section.</li>
+                <li>Paste your base URL and tap generate.</li>
+                <li>Copy the generated XLibrary Key and share it.</li>
+                <li>Other users can paste the key in Add Library.</li>
+              </ol>
+            </div>
+            <div class="col-lg-6">
+              <h3 class="h5 fw-bold">How the key is used</h3>
+              <p class="muted mb-3">
+                The key works as a share-friendly version of your library source. When another user adds
+                the key in XLibrary, the app uses it to open the library URL you prepared.
+              </p>
+              <div class="mini-callout p-3 mt-3">
+                A key is for convenient sharing. It does not replace your responsibility to host safe,
+                accessible, and correctly formatted library content.
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </main>
+
+  <footer class="py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <span>XLibrary 2.0 - Your Library</span>
+      <span>Use external sources responsibly and only add content you have the right to access.</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
